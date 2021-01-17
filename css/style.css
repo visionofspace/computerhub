@@ -96,13 +96,12 @@ p	{
 h3	{
 	color:white;
 }
-.mobilecontent {
-        Display:none;
+@media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
 }
-@media only screen
-{And (min-device-width : 320px)
-And (max-device-width : 460px)}
 
-.mobilecontent {
-Display: inline;
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
 }
