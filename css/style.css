@@ -100,8 +100,8 @@ h3	{
         Display:none;
 }
 @media only screen
-And (min-device-width : 320px)
-And (max-device-width : 460px)
+{And (min-device-width : 320px)
+And (max-device-width : 460px)}
 
 .mobilecontant {
 Display: inline;
